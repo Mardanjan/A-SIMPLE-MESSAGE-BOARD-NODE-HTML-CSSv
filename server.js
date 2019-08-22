@@ -72,6 +72,6 @@ http
      }
 
     })
-    .listen(3000, function () {
-        console.log('running...')
+    .listen(3000,'0.0.0.0', function () {
+        console.log('running... at 3000')
     })
